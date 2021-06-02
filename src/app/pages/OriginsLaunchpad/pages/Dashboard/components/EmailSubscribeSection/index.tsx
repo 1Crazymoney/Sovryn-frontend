@@ -1,9 +1,9 @@
 import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ActionButton } from '../../../../components/Form/ActionButton/index';
-import { FieldGroup } from '../../../../components/FieldGroup';
-import { InputField } from '../../../../components/InputField';
-import { translations } from '../../../../../locales/i18n';
+import { ActionButton } from '../../../../../../components/Form/ActionButton/index';
+import { FieldGroup } from '../../../../../../components/FieldGroup';
+import { InputField } from '../../../../../../components/InputField';
+import { translations } from '../../../../../../../locales/i18n';
 
 export const EmailSubscribeSection: React.FC = () => {
   const [email, setEmail] = useState('');
