@@ -4,13 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { translations } from 'locales/i18n';
 import { Header } from 'app/components/Header';
 import { Footer } from 'app/components/Footer';
-<<<<<<< HEAD
-import { UpcomingSalesCardSection } from './components/UpcomingSalesCardSection';
-import { PreviousSalesCardSection } from './components/PreviousSalesCardSection';
-=======
 import { Dashboard } from './pages/Dashboard/index';
 import { SalesDay } from './pages/SalesDay/index';
->>>>>>> c7cb7151 (Prepare folder structure for SalesDay page)
 
 export const OriginsLaunchpad: React.FC = () => {
   const { t } = useTranslation();
